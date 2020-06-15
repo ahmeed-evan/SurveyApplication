@@ -1,4 +1,4 @@
-package com.example.surveyapplication;
+package com.example.SurveyApplication;
 
 import android.content.Context;
 
