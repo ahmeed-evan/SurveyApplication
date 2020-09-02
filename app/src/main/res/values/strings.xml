@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SurveyApplication</string>
+    <string name="termText">"By tapping \"Sign IN\" you agree to our Terms of Use and Mobile App Privacy Policy Statement"</string>
+    <string name="digit_verifivationtext">Enter 6 digit number that send to</string>
 </resources>

@@ -5,11 +5,42 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/Silver</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="otpViewStyle">@style/OtpWidget.OtpView</item>
     </style>
 
     <style name="quickSand_16_medium_black">
         <item name="android:textColor">@color/Black</item>
         <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/quicksand_medium</item>
+    </style>
+
+    <style name="quickSand_16_black">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/quicksand</item>
+    </style>
+
+    <style name="quickSand_14_black">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/quicksand</item>
+    </style>
+
+    <style name="quickSand_16_white_medium">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/quicksand_medium</item>
+    </style>
+
+    <style name="quickSand_16_light_black">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/quicksand_light</item>
+    </style>
+
+    <style name="TitleText">
+        <item name="android:textColor">@color/Lime</item>
+        <item name="android:textSize">40sp</item>
         <item name="fontFamily">@font/quicksand_medium</item>
     </style>
 

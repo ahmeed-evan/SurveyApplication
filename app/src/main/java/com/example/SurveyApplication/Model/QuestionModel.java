@@ -1,4 +1,4 @@
-package com.example.SurveyApplication;
+package com.example.SurveyApplication.Model;
 
 public class QuestionModel {
     private String question,optionA,optionB,optionC,optionD;

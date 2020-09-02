@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.SurveyApplication.Model.QuestionModel;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,7 +19,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class MainActivity extends AppCompatActivity {
+public class SurveyActivity extends AppCompatActivity {
     private int count=0;
     private int position=0;
     private List<QuestionModel>questionList=new ArrayList<>();
@@ -36,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_survey);
         ButterKnife.bind(this);
         addQuestion();
         playAnim(questionTextView,0,questionList.get(position).getQuestion());
